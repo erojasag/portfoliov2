@@ -94,12 +94,16 @@ function Skill({ skill }) {
 function SkillsList({ skills }) {
   return (
     <>
-      <div className="border-t-2 pt-20 border-primary border-b-2 pb-10 mb-20">
-        <h2 className="text-4xl font-bold text-center mb-10">My Skills Set</h2>
-        <div className="flex flex-wrap justify-center">
-          {skills.map((skill) => (
-            <Skill key={skill.title} skill={skill} />
-          ))}
+      <div>
+        <div className="border-t-2 pt-20 border-primary border-b-2 pb-10 mb-20">
+          <h2 className="text-4xl font-bold text-center mb-10">
+            My Skills Set
+          </h2>
+          <div className="flex flex-wrap justify-center">
+            {skills.map((skill) => (
+              <Skill key={skill.title} skill={skill} />
+            ))}
+          </div>
         </div>
       </div>
     </>
