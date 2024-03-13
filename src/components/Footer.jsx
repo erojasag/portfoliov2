@@ -9,8 +9,7 @@ function Footer() {
         <span aria-hidden className="hidden md:inline">
           |
         </span>
-        <br aria-hidden className="block md:hidden" /> Todos los derechos
-        reservados.
+        <br aria-hidden className="block md:hidden" /> All rights reserved.
       </span>
 
       <ul className="flex flex-row gap-x-4 items-center">
