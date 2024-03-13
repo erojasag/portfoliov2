@@ -11,7 +11,7 @@ function Hero() {
         <ul className="text-center">
           <li>
             Email:
-            <a className="text-primary" href="mailto: emanuel@emanuelrojas.com">
+            <a className="text-primary" href="mailto: emanuel@emanuelrojas.com?cc=eroaguero01@gmail.com">
               {' '}
               emanuel@emanuelrojas.com
             </a>
