@@ -116,12 +116,14 @@ function ContactMe() {
                 placeholder="Leave me a message...😁"
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary dark:bg-primary dark:hover:bg-primary dark:focus:ring-primary"
-            >
-              Send message
-            </button>
+            <div className="flex justify-center">
+              <button
+                type="submit"
+                className=" py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary dark:bg-primary dark:hover:bg-primary dark:focus:ring-primary"
+              >
+                Send message
+              </button>
+            </div>
           </form>
         </div>
       </section>
