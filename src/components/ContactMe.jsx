@@ -97,7 +97,7 @@ function ContactMe() {
                 type="text"
                 id="subject"
                 className="shadow-sm bg-black border border-black text-black text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-secondary dark:border-primary dark:placeholder-black dark:text-black dark:focus:ring-primary dark:focus:border-primary dark:shadow-sm-light"
-                placeholder="Let us know how we can help you"
+                placeholder="Let me know how I can help you"
                 required
               />
             </div>
@@ -113,7 +113,7 @@ function ContactMe() {
                 id="message"
                 rows="6"
                 className="block p-2.5 w-full text-sm text-black bg-secondary rounded-lg shadow-sm border border-primary focus:ring-primary focus:border-primary dark:bg-secondary dark:border-primary dark:placeholder-black dark:text-black dark:focus:ring-primary dark:focus:border-primary"
-                placeholder="Leave a comment..."
+                placeholder="Leave me a message...😁"
               ></textarea>
             </div>
             <button
