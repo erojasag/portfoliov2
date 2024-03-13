@@ -20,16 +20,16 @@ function AboutMe() {
               that much that I learned how to snowboard on my own watching
               Youtube videos.
             </p>
-            <p>
+            <p className="text-gray-700 text-base">
               Thrilled by the latest tech trends, I'm always looking for new
               challenges and opportunities to grow.
             </p>
-            <p>
+            <p className="text-gray-700 text-base">
               I'm a software developer, with a strong focus on the backend, but
               I'm always looking for ways to improve my skills and learn new
               technologies.
             </p>
-            <p>
+            <p className="text-gray-700 text-base">
               As a team player, I'm always looking for ways to help and learn
               from others.
             </p>
